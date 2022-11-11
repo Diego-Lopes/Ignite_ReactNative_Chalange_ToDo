@@ -54,7 +54,7 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
   textCreate: {
-    color: "#fff",
+    color: "#4EA8DE",
     fontSize: 14,
     fontWeight: "bold",
     marginRight: 8,

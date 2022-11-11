@@ -25,7 +25,6 @@ export function Home() {
   const [listTasks, setListTasks] = useState<IListProps[]>([]);
   const [countTasks, setCountTasks] = useState(0);
   const [countCheckeds, setCountCheckeds] = useState(0);
-  const [checked, setCheked] = useState(false); //mudança no css
 
   useEffect(() => {
     setCountTasks(listTasks.length);
@@ -141,11 +140,6 @@ export function Home() {
             </View>
           )}
         />
-
-        {/* <ScrollView>
-          <TaskCard task="Comprar laranja" onChecked={handleCheked} onDelete={handleDelete} />
-     
-        </ScrollView> */}
       </View>
     </View>
   );
